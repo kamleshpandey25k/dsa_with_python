@@ -4,5 +4,5 @@ def isSorted(num):
         if num[i]>num[i+1] :
             return False
     return True
-num=[11,12,13,16,19,2]
+num=[11,12,13,16,19,20]
 print(isSorted(num))
